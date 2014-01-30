@@ -7,7 +7,8 @@
 	<meta name="description" content="">
 	<meta name="author" content="Anna Odeh">
 	<meta name="handheldfriendly" content="true">
-  	<meta name="mobileoptimized" content="240">
+  <meta name="mobileoptimized" content="240">
+  <link href="css/dialog-polyfill.css" rel="stylesheet">
 	<link href="css/general.css" rel="stylesheet">
 </head>
 
@@ -32,11 +33,9 @@
 	</div>
 
 
-	<div class="containervideo" id="video">
-	   <div class="rowvideo">
-				<img src="img/video" alt="video" class="video">
-		</div>
-	</div>
+<div class="js-video widescreen vimeo">
+<iframe src="//player.vimeo.com/video/81406676" width="500" height="282" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 
 	<div class="containertitle"  id="title"
@@ -68,6 +67,7 @@
 
 
 <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+ <script src="js/dialog-polyfill.js"></script>
 <script src="js/corusel.js"></script>
 </body>
 </html>
